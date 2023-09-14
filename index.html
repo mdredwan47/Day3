@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{color: green;}
+        h2{color: red;}
+    </style>
+</head>
+<body>
+    <h1>Day 3</h1>
+    <hr>
+    <h2>Form Radio</h2>
+    <form>
+        <fieldset>
+            <legend>Please select your preferred contact method:</legend>
+            <div>
+                <input type="radio" id="contactchoice1" name="contact" value="gmail">
+                <label for="contactchoice1">Gmail</label>
+                <input type="radio" id="contactchoice2" name="contact" value="phone">
+                <label for="contactchoice2">Phone</label>
+                <input type="radio" id="contactchoice3" name="contact" value="Mail">
+                <label for="contactchoice3">Mail</label>
+            </div>
+
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </fieldset>
+    </form>
+
+
+    <h2>Form Radio</h2>
+    <form>
+        <p>Plese select your favourit web language:</p>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="Javascript"> 
+        <label for="javascript">Javascript</label><br>
+        <p>Please select your age:</p>
+        <input type="radio" id="age1" name="age" value="30">
+        <label for="age1">0-30 </label><br>
+        <input type="radio" id="age2" name="age" value="60">
+        <label for="age2">31-60</label><br>
+        <input type="radio" id="age3" value="100">
+        <label for="age3">61-100</label><br><br>
+
+
+    
+    </form>
+
+
+    <h2>Select Details</h2>
+    <br>
+    <label for="pet-select">Choose a pet:</label><br>
+    <select name="pets" id="pet-select">
+    <option value="--please choose an option--">--please choose an option--</option>
+    <optgroup label="home pet">
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+    </optgroup>
+    <optgroup label="Outdoor pet">
+        <option value="Hamster">Hamster</option>
+        <option value="Parrot">Parrot</option>
+    </optgroup> 
+    <optgroup label="Water">
+        <option value="Gold fish">Gold fish</option>
+    </optgroup>
+</select>
+
+<hr>
+<hr>
+
+<h2>Option details</h2>
+<form>
+    <label for="browser" Choose your browser from the list:></label>
+    <input list="browsers" name="browser" id="browser">
+    <datalist id="browsers">
+        <option value="Edge"></option>
+        <option value="Firefox"></option>
+        <option value="Chrome"></option>
+        <option value="Opera"></option>
+        <option value="Safari"></option>
+
+    </datalist>
+    <input type="submit">
+
+</form>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
